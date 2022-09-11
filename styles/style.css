@@ -1,0 +1,185 @@
+/* Global styles */
+
+html {
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+  scroll-padding-top: 8.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.15rem;
+}
+
+h5 {
+  font-size: 0.9rem;
+}
+
+body {
+  text-align: center;
+  background-color: #f6f3f1;
+  color: #110d0b;
+}
+
+main {
+  margin-top: 8.5rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0rem auto;
+}
+
+.text-box h2 {
+  margin-bottom: 1.5rem;
+}
+
+.text h2 {
+  margin-bottom: 1.5rem;
+}
+
+.text h3 {
+  margin-bottom: 1rem;
+}
+
+#products, #team, #contact, #photograph-credits {
+  padding-top: 1.5rem;
+}
+
+/* Header styles */
+
+header {
+  background-color: #45372e;
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+}
+
+nav li {
+  text-transform: uppercase;
+  display: inline;
+  margin: 1.5rem 3.5rem 0rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #ded0c7;
+}
+
+header a:hover {
+  color: #f6f3f1;
+}
+
+/* Banner styles */
+#mission {
+  background-image: url("../images/immo-wegmann-REqK8jIAtv8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10rem 10rem;
+}
+
+.text-box {
+  background-color:#ded0c7;
+  padding: 2rem;
+  line-height: 2rem;
+  min-width: 20rem;
+  max-width: 35rem;
+}
+
+/* Products styles */
+.text {
+  line-height: 2rem;
+  min-width: 20rem;
+}
+
+.card-container {
+  max-width: 60rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 0rem 2rem 1.5rem;
+}
+
+.card-image {
+  height: 10rem;
+  width: 15rem;
+}
+
+figcaption {
+  margin-top: 0.25rem;
+}
+
+/* Team styles */
+#team {
+  background-color: #ded0c7;
+}
+
+.card2-image {
+  height: 15rem;
+  width: 15rem;
+  border: solid 0.2rem #110d0b;
+}
+
+
+/* Footer styles */
+
+footer a {
+  color: #110d0b;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+address h2 {
+  margin-bottom: 1.5rem;
+}
+
+address h3 {
+  margin-bottom: 1rem;
+}
+
+address p {
+  line-height: 1.5rem;
+}
+
+.footer-container {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+
+/* Photograph credits styles */
+#photograph-credits {
+  background-color: #ded0c7;
+}
+
+#photograph-credits a {
+  color: #110d0b;
+}
+
+#photograph-credits a:hover {
+  text-decoration: none;
+}
