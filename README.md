@@ -44,4 +44,4 @@ This website has been tested on:
 Thanks to @mattdrago for helpful feedback.
 
 ### License
-[MIT License](LICENSE.txt)
+None
